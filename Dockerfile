@@ -23,7 +23,7 @@ ENV MODEL_REPO=Jiunsong/supergemma4-26b-uncensored-gguf-v2
 ENV MODEL_FILE=supergemma4-26b-uncensored-fast-v2-Q4_K_M.gguf
 ENV MODEL_DIR=/models
 ENV N_GPU_LAYERS=-1
-ENV CTX_SIZE=8192
+ENV CTX_SIZE=32768
 ENV PARALLEL=1
 ENV LLAMA_PORT=8080
 
