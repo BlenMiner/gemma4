@@ -19,9 +19,9 @@ COPY handler.py /app/handler.py
 # Model config (override via RunPod environment variables)
 ENV HF_HUB_ENABLE_HF_TRANSFER=0
 ENV HF_HUB_DISABLE_XET=1
-ENV MODEL_REPO=ggml-org/gemma-4-26B-A4B-it-GGUF
-ENV MODEL_FILE=gemma-4-26B-A4B-it-Q4_K_M.gguf
-ENV MODEL_DIR=/runpod-volume/models
+ENV MODEL_REPO=Jiunsong/supergemma4-26b-uncensored-gguf-v2
+ENV MODEL_FILE=supergemma4-26b-uncensored-fast-v2-Q4_K_M.gguf
+ENV MODEL_DIR=/models
 ENV N_GPU_LAYERS=-1
 ENV CTX_SIZE=8192
 ENV PARALLEL=1
